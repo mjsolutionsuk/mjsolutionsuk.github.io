@@ -16,6 +16,13 @@ body {
     padding-top: 80px;
 }
 
+@media (max-width: 600px) {
+    .title {
+        font-size: 42px;
+        flex-direction: row;
+    }
+}
+
 .title {
     align-items: center;
     justify-content: center;
